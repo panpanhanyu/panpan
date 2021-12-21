@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: FangSong, 'Noto Sans KR', ;
+}
+lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
+.clearf:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.t_buy_outview{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t_buy_plate{
+    border-top: 1px solid #E5E5E5;
+     margin-bottom: 30px;
+}
+.t_pay_box{
+    background-color: white;
+}
+.t_pay_btn{
+    float: left ;
+    font-size: 14px;
+    text-align: center;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height:40px;
+    border-bottom: 1px solid white;
+}
+.t_pay_btn_lei{
+    color: #24A25B;
+    border-bottom: 1px solid #24A25B;
+}
+.t_buy_plate_tit{
+    color: #333333;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.t_buy_lesson_btn{
+    float: left ;
+    width: 32%;
+    box-sizing: border-box;
+    border: 2px solid #d2d2d2;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 5px #d1d0d0
+}
+.t_buy_lesson_btn_lei{
+    border: 2px solid #24A25B;
+}
+.t_buy_lesson_btn:nth-child(2){
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.t_buy_rili_box{
+    float: left;
+    width: 15%;
+    box-sizing: border-box;
+    margin-right: 8%;
+}
+.t_buy_rili_box img{
+    width: 100%;
+}
+.t_buy_lesson_count{
+    float: left;
+    width:100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #666666;
+    text-align:center;
+}
+.t_buy_lesson_count_lei{
+    color: #24A25B;
+}
+.t_buy_ischeck{
+    top:10%;
+    right: 6%;
+    position: absolute;
+    width: 14px;
+    box-sizing: border-box;
+    height: 14px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+}
+.t_buy_checkin{
+    width: 6px;
+    height: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4px;
+    border-radius: 50%;
+    background-color: #d6d6d6
+}
+.t_buy_checkin_lei{
+    background-color: #24A25B
+}
+.t_rili02{
+    display: none;
+}
+.t_buy_tab_con{
+    display: none
+}
+
+.t_price_box{
+    background-color: white;
+    text-align: center;
+    color: #999999;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #d1d0d0;
+    border-radius: 5px;
+    padding: 7px 10px 15px 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.t_price_box2{
+    background-color: #0f4f72;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #d1d0d0;
+    border-radius: 5px;
+    padding: 7px 10px 15px 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.t_price_fontone{
+    float:right;
+    font-size: 12px;
+}
+.t_price_fonttwo{
+    color: #666666;
+    font-size: 13px;
+    font-weight: bold;
+}
+.t_price_fonttwo2{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.t_price_fontthree{
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.t_price_fontthree2{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.t_price_money{
+    font-size: 42px;
+    font-weight: bold;
+    color: #46246c;
+}
+.t_price_money2{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+.t_price_dv{
+    font-size: 18px;
+    font-weight: bold;
+    color: #46246c;
+}
+.t_price_dv2{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.t_price_fontfour{
+    font-size: 12px;
+    color: #666666;
+}
+.t_price_fontfour2{
+    font-size: 12px;
+    color: white;
+}
+.t_price_fontstyle{
+    font-size: 17px;
+    font-weight: bold;
+    color:#333333
+}
+.t_price_fontstyle2{
+    font-size: 17px;
+    font-weight: bold;
+    color:white
+}
+.t_buy_tabconbox{
+    margin-top: 30px;
+   
+}
+.t_price_down{
+    background-color: #46246c;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 13px;
+    right: 12px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.t_price_down2{
+    background-color:white ;
+    color: #df5e5b;
+    font-size: 12px;
+    position: absolute;
+    bottom: 17px;
+    right: 15px;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.t_banner_view{
+    width: 100%;
+    height: 30vw;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    position: relative;
+
+}
+.t_banner_in{
+    width: 90%;
+    position: absolute;
+    top: -5vw;
+    left: 5%;
+    box-shadow: 0 3px 20px #c0bebe;
+    border-radius: 10px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+.swiper-pagination{
+    margin-top: 5px;
+    width: 100%;
+}
+.swiper-pagination-bullet{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.t_order_footer{
+    background-color: #dcdcdc;
+}
+.t_order_footer_con{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    color: #666666;
+    padding-bottom: 50px;
+}
+.t_order_footer_item{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.t_order_nav{
+    text-align: center;
+    background-color: #24A25B;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+}
+.t_order_back{
+    position: absolute;
+    width: 16px;
+    top: 20px;
+    left: 15px;
+}
+.t_reset_order{
+    position: absolute;
+    font-size: 14px;
+    top: 18px;
+    right: 15px
+}

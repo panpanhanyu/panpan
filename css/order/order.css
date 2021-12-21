@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5fa;
+    font-family: FangSong, 'Noto Sans KR', ;
+}
+lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
+.clearf:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.t_order_back{
+    position: absolute;
+    width: 16px;
+    top: 20px;
+    left: 15px;
+}
+.t_reset_order{
+    position: absolute;
+    font-size: 14px;
+    top: 18px;
+    right: 15px
+}
+.t_order_nav{
+    text-align: center;
+    background-color: #24A25B;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+}
+.t_tobe_paid{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.t_order_wait{
+    float: left;
+    width: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+.t_order_model{
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.t_not_pay{
+    /* margin-top: 20px; */
+}
+.t_not_pay_tit{
+    margin-bottom: 10px;
+}
+.t_notpay_tips{
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.t_order_moneybox{
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+.t_ordermoney_tit{
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+.t_ordermoney{
+    float: right ;
+    font-size: 18px;
+    color: #ff3333;
+}
+.t_ordermoney_line{
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+.t_ordermoney_line2{
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.t_definite_tit{
+    float: left ;
+    font-size: 13px;
+    color: #666666;
+}
+.t_definite_money{
+    float: right ;
+    font-size: 14px;
+    color: #333333;
+}
+.t_red{
+    color: #ff3333;
+}
+.t_record_box{
+    /* margin-top: 25px; */
+}
+.t_favourable_tit{
+    float: left;
+}
+.t_favourable_outbtn{
+    width: 20px;
+    height: 20px;
+    background-color: #eeeeee;
+    float: right ;
+    border-radius: 50%;
+}
+.t_favourable_inbtn{
+    width: 10px;
+    height: 10px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.t_favourable_inbtn_lei{
+    background-color: #24A25B;
+}
+.t_favourable{
+    margin-top: 25px;
+}
+.t_favourable_check{
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 5px #eae9e9;
+    margin-top:20px;
+}
+.t_favourable_check_lei{
+    border-color: #24A25B;
+}
+.t_favourable_num{
+    float: left ;
+    width: 75%;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 10px;
+    outline: none;
+    border-right: none;
+    border-radius: 5px 0 0 5px
+}
+.t_favourablenum_use{
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: #f6b37f;
+    color: white;
+    line-height: 32px;
+    border-radius: 0px 5px 5px 0px
+}
+.t_favourable_num_box{
+    margin-top: 15px;
+}
+.t_canuse_grade{
+    float: left ;
+    color: #666666;
+    font-size: 13px;
+}
+.t_is_useall{
+    float: right;
+    font-size: 13px;
+}
+.t_is_useall input{
+    margin: 0;
+}
+.t_use_some_grade{
+    float: right ;
+    border: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    width: 70%;
+    line-height: 26px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: -5px;
+    outline: none
+}
+.t_use_some_card{
+    float: right ;
+    border: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    width: 70%;
+    line-height:30px;
+    height:30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-top: -5px;
+    outline: none;
+    background-color: white
+}
+.t_need_pay{
+    float: right;
+}
+.t_pay_money{
+    text-align: center;
+    background-color: #24A25B;
+    color: white;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-top: 40px;
+    cursor: pointer
+}
+.t_order_footer{
+    background-color: #dcdcdc;
+}
+.t_order_footer_con{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    color: #666666;
+    padding-bottom: 50px;
+}
+.t_order_footer_item{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.t_canuse_count{
+    color:#f6b37f;
+    font-size: 18px
+}
+.t_outview_order{
+    margin-right: auto;
+    margin-left: auto;
+}
+.t_outview_order{
+    background-color: white;
+    width: 400px;
+    margin-top: 100px;
+}
+.t_order_footer,.t_order_nav{
+    display: none;
+}
+.t_wx_tips_window{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.7);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.t_wx_tips{
+    position: absolute;
+    top: 10vw;
+    right: 10vw;
+    width:20vw
+}
+.t_wx_tips_con{
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+    position: absolute;
+    top: 53vw;
+    left: 10vw;
+    width: 80vw;
+    text-align: center;
+}
+.t_wx_closebox{
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20vw;
+    text-align: center;
+}
+.t_wx_s{
+    position: absolute;
+    width: 90%;
+    left: 5vw;
+    top:80vw;
+    border-radius: 10px;
+    background-color: #ededed;
+    padding: 2vw 0;
+
+}
+.t_wx_close_btn{
+    border-radius: 5px;
+    border: 1px dashed white;
+    padding: 5px 30px;
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+    .pan-header,.pan-footer{
+        display: none;
+    }
+    body{
+        background-color: white;
+    }
+    .t_order_footer,.t_order_nav{
+        display: block;
+    }
+    .t_outview_order{
+        background-color: white;
+        width: auto;
+        margin-top: 0;
+    }
+}

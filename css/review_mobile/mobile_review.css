@@ -1,0 +1,546 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearf:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+.t_rule_back{
+    position: absolute;
+    width: 10px;
+    left: 15px;
+    top: 18px;
+}
+.t_review_tit{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color: #9981b3;
+    color: white;
+}
+.t_review_lesson_level,.t_review_lesson_count,.t_review_lesson_name{
+    float: left;
+}
+
+.t_review_lesson_level{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.t_review_lesson_count,.t_review_lesson_name{
+    font-size: 15px;
+    color: #333333;
+}
+.t_review_lesson_date{
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.t_lesson_box{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.t_review_lesson{
+    margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.t_review_lesson_count{
+    margin-left: 13px;
+    margin-top: 7px;
+}
+.t_review_yinbtn{
+    color: white;
+    background-color: #ad9bc2;
+    font-size: 15px;
+    width: 98px;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 30px;
+    box-shadow: 0 0 6px #a6a5a5;
+    border: 1px solid red;
+}
+.t_yin_btn{
+    vertical-align: middle;
+    width: 12px;
+    margin-left: 5px;
+}
+.t_lesson_audio{
+    height: 37px;
+    width: 90%;
+    margin-top: 10px;
+    display: none
+}
+.t_review_func{
+    border-top: 1px solid #f3f3f3;
+    margin-top: 20px;
+}
+.t_func_left,.t_func_center,.t_func_right{
+    float: left;
+    text-align: center;
+}
+.t_func_left,.t_func_right{
+    width: 48%;
+}
+.t_func_center{
+    width: 4%;
+}
+.t_func_cont{
+    font-size: 24px;
+    font-weight: bold;
+    color: #191919;
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+.t_func_cont2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f05558;
+   margin-top: 14px;
+   margin-bottom: 7px;
+}
+.t_func_cont3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #999999;
+   margin-top: 14px;
+   margin-bottom: 7px;
+}
+.t_func_font{
+    font-size: 15px;
+    color: #666666;
+}
+.t_func_sol{
+    font-size: 12px;
+    color: #999999;
+    margin-top: 5px;
+}
+.t_func_right{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 35px;
+    text-decoration: none;
+}
+.t_func_right img{
+    vertical-align: middle;
+    width: 16px;
+    margin-left: 10px;
+}
+.t_func_line{
+    width: 2px;
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f3f3;
+    margin-top: 21px;
+}
+.t_review_line{
+    height: 10px;
+    background-color: #e5e5e5;
+    margin-top: 15px;
+}
+.t_review_tab{
+    float: left;
+    width: 32%;
+    text-align: center;
+    padding: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ad9bc2;
+    color: #ad9bc2
+}
+.t_review_tabbox{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #e7e7e7; */
+    color: #666666;
+    font-size: 14px;
+    overflow: hidden;
+    
+    margin-top: 15px;
+}
+.t_review_tab_lei{
+    background-color: #ad9bc2;
+    color: white;
+}
+.t_review_con{
+    display: none
+}
+.t_from_count{
+    float: left;
+    width: 30%;
+    text-align: center
+}
+.t_from_linebox{
+    float: left;
+    width: 6%;
+}
+.t_from_line{
+    width: 2px;
+    height: 66px;
+    background-color: #e7e7e7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+.t_from_starbox{
+    /* float: left; */
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t_form_star{
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+    background-image: url('/static/img/review_mobile/star-comment.png');
+    background-size: 100% 100%;
+}
+.t_form_star_quan{
+    background-image: url('/static/img/review_mobile/star-comment-ed.png');
+}
+.t_form_star_ban{
+    background-image: url('/static/img/review_mobile/star-comment-half.png');
+}
+.t_from_startit{
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+.t_from_starcom{
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+}
+.t_review_conbox{
+    margin-top: 20px;
+}
+.t_star_item{
+    margin-bottom: 7px;
+}
+.t_from_review_box{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 15px;
+}
+.t_review_after{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.t_font_img{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.t_afterping{
+  /*   float: left;
+    width: 80%;
+    margin-left: 3%; */
+}
+.t_after_tit{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    float: left;
+}
+.t_after_tit2{
+    font-size: 16px;
+    color: #333333;
+    float: left;
+    font-weight: bold;
+}
+.t_after_item_tit{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.t_after_item_con{
+    font-size: 14px;
+    color: #666666;
+}
+.t_yin_up{
+    display: none;
+}
+.t_after_item{
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.t_rili{
+    vertical-align: middle;
+    width: 20px;
+     margin-right: 8px;
+     float: left;
+}
+.t_riqi{
+    float: left;
+}
+.t_lesson_audiobox{
+    background-image: url('/static/img/review_mobile/bg01.png');
+    background-size: 100% 100%;
+    float: left;
+    width: 63%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #c7c7c7;
+    height: 110px;
+}
+.t_ping_gradebox{
+    background-image: url('/static/img/review_mobile/bg02.png');
+    background-size: 100% 100%;
+    float: left;
+    width: 35%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    padding:10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #c7c7c7;
+    height: 110px;
+}
+.t_go_xxj{
+    float: left;
+    width: 100%;
+    background-image: url('/static/img/review_mobile/bg03.png');
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    background-size: 100% 100%;
+    box-shadow: 0 0 5px #c7c7c7;
+    border-radius: 5px;
+    margin-top: 2%;
+    position: relative;
+}
+.t_btn01{
+    background-color: white;
+    color: #545454;
+    font-size: 11px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-top:23px;
+    border: 1px solid #dedede;
+}
+.t_is_audio_box{
+    
+    display: none;
+}
+.t_no_audio_font{
+    background-color: #eeeeee;
+    line-height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+.t_btn02{
+    background-color: white;
+    color: #333333;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.t_audio_one{
+    width: 100%;
+    height: 36px;
+    display: block;
+}
+.t_top_grade{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.t_rviewgo_linebox{
+    float: left;
+    color: white;
+    text-align: center;
+}
+.t_review_line2{
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.t_rviewgo_btn{
+    position: absolute;
+    background-color: white;
+    color: #9981b3;
+    top: 15px;
+    right:10px;
+    font-size: 12px;
+    padding: 5px 13px;
+    border-radius: 30px;
+}
+.t_rviewgo_linebox{
+    width: 10%;
+}
+.t_tab01_none{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.t_tab01_none img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.t_noping_review{
+    margin-top: 15px;
+}
+.t_after_voicebox{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+.t_after_voiceitem{
+    box-shadow: 0 0 8px #d2d1d0;
+     border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box; 
+  padding:10px 15px; 
+  margin-bottom: 15px;
+}
+.t_voice_conut{
+    border: 1px solid #666666;
+    color: #666666;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-top: 6px;
+}
+.t_old_voise{
+    float: left;
+    background-color: #ffd7a7;
+    color: white;
+    width: 75%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border-radius: 20px
+}
+.t_yybtn{
+    float: left;
+    width: 16px
+}
+.t_yybtn2{
+    float: left;
+    width: 16px;
+    display: none;
+}
+.t_yy_time{
+    float: right ;
+    font-size: 12px;
+}
+.t_voice_down{
+    float: right ;
+    width: 20px;
+    margin-top: 7px;
+}
+.t_revier_share{
+    float: right;
+    width: 20px;
+}
+.t_old_chat{
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #908f8f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.t_review_inxxj{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    
+    padding: 10px;
+    box-shadow: 0 0 5px #908f8f;
+    border-radius: 5px;
+   display: none
+
+
+}
+.t_xxj_item{
+    line-height: 20px;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 0 10px;
+}
+.t_xxj_item:last-child{
+    border-bottom: none;
+}
+.t_xxj_item a{
+     text-decoration: none !important;
+     color: black !important;
+     font-size: 13px;
+}
+   .t_red{
+            color: red;
+        }
+        .t_green{
+            color: green;
+        }
+        .t_font_up,.t_resize_font,.t_resize_send{
+            display: none;
+            
+        }
+        .t_resize_btn,.t_resize_send,.t_font_up{
+            background-color: #24A25B;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            padding: 5px 0px;
+            border-radius: 3px;
+        }
+        .t_review_lesson_namebox{
+            float: left;
+            width: 70%;
+        }
+        .t_lesson_audio_box{
+            float: right;
+        }

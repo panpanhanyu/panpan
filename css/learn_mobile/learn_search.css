@@ -1,0 +1,117 @@
+.learn_m_hmh_sbl_wrap input{
+		top:0px;
+	}
+	.learn_m_hmh_sbl_wrap input::-webkit-input-placeholder { /* WebKit browsers */
+	  color: #999999;
+	  font-size: 13px;
+	}
+
+	.learn_m_hmh_sbl_wrap input::-moz-placeholder { /* Mozilla Firefox 19+ */
+	  color: #999999;
+	  font-size: 13px;
+	}
+
+	.learn_m_hmh_sbl_wrap input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	  color: #999999;
+	  font-size: 13px;
+	}
+
+	.learn_m_hmh_search_bar{
+		padding-bottom:6px;
+	}
+	.learn_m_srmlw_item .learn_m_cli_top{
+		margin-left:10px;
+		margin-right:10px;
+		padding-left:0px;
+		padding-right:0px;
+		border-bottom:1px solid #cccccc;
+		padding-top:3px;
+		padding-bottom:4px;
+	}
+	.learn_m_srmlw_item .learn_m_cli_top span.learn_m_cli_date{
+		font-size:12px;
+		margin-top:5px;
+		display: block;
+		color:#999999;
+	}
+	.learn_m_srmlwi_content .learn_m_acclwi_l{
+		width:32%;
+	}
+
+	.learn_m_acclwi_l i{
+		display: block;
+		background: url('/static/img/learn_mobile/learn_m_ac_play-icon.png') no-repeat;
+		background-size:28px 28px;
+		width:28px;
+		height:28px;
+		position: absolute;
+		left:50%;
+		top:50%;
+		margin-left:-14px;
+		margin-top:-14px;
+	}
+	  .learn_m_cli_top h1 span {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .learn_schedule_box_wrap {
+            text-align: center;
+            position: fixed;
+            top: 94px;
+            width: 100%;
+            border-radius: 4px;
+            z-index: 91;
+            display: none;
+        }
+
+        #schedule-box {
+            border-radius: 4px;
+            background: white;
+            width: 93%;
+            margin: 0 auto;
+            padding: 10px 0px 0px 0px;
+            font-size: 13px;
+        }
+        .learn_m_search_a_i {
+            color: white;
+            font-size: 12px;
+            border-radius: 200px;
+            background: #24A258;
+            display: block;
+            float: right;
+            padding: 5px 12px;
+        }
+
+        .learn_m_hmh_sbl_wrap {
+            width: 97%;
+        }
+
+        .learn_mhn_item_wrap {
+            width: 33.3%;
+        }
+
+        .learn_m_head_navs {
+            padding-bottom: 2px;
+        }
+
+        .learn_m_cli_top {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .loading{
+            background-color:rgba(255,255,255,.95);
+            width: 100vw;
+            height: 100vh;
+            position:fixed;
+            left: 0;
+            top: 0;
+            z-index: 10000
+        }
+        .loading img{
+            width: 30%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:35vh;
+        }

@@ -1,0 +1,133 @@
+.pan-header{
+		-moz-box-shadow: none;
+    	-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.learn_smlw_c_item:nth-child(4n){
+		margin-right:0;
+	}
+
+	.learn_search_movie_line{
+		padding-top:5px;
+	}
+
+	.learn_smlw_c_item{
+		margin-bottom:27px;
+	}
+	.learn_search_movie_line{
+		padding-bottom:0px;
+	}
+	
+	
+	a.learn_smlw_cit_bg_green{
+		background: #f1f1f1;
+		color:black;
+	}
+
+	a.learn_smlw_cit_bg_red{
+		background: #f1f1f1;
+		color:black;
+	}
+
+	a.learn_smlw_cit_bg_orange{
+		background: #f1f1f1;
+		color:black;
+	}	
+	
+	.learn_smlw_ci_c h4{
+	font-size:18px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	}
+	.box2,.box1{
+		margin-top: 30px;
+	}
+	body{
+		background-color:white;
+	}
+	.box1{
+		background-color: #EEEEEE
+	}
+	.learn_search_w_item{
+		margin-left: 0
+	}
+	
+	.learn_line2{
+		width: 740px;
+		margin-left: auto;
+		margin-right: auto;
+		/*border:1px solid red;*/
+		
+	}
+	.learn_line3{
+		width: 100%;
+		border-top:1px solid #eeeeee;
+	}
+	.learn_search_wir_top .tab_title{
+		font-size: 16px;
+		color:#333333;
+	}
+	.learn_search_wir_top .tab_title .obg{
+		font-size: 14px;
+		color:#333333;
+		font-weight: normal;
+	}
+	.learn_search_wirwl_loadmore span{
+		font-size: 13px;
+		padding: 10px 20px;
+		border-radius: 8px;
+	}
+	.learn_search_wirwl_loadmore span img{
+		width: 10px;
+		margin-left: 3px;
+	}
+	a.learn_smlw_cit_bg_green2{
+		background: #24A258;
+		color:white;
+	}
+
+	a.learn_smlw_cit_bg_red2{
+		background: #cc9999;
+		color:white;
+	}
+
+	a.learn_smlw_cit_bg_orange2{
+		background: #99cccc;
+		color:white;
+	}
+	.t_lessson{
+		border-radius: 5px;
+		color:white;
+		font-size:17px;
+		padding:4px 13px;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top:50%;
+		margin-top:-16px;
+		left:50%;
+		margin-left: -40px;
+	}
+	.box3{
+		display: none;
+		background-color: #f6f5fa;
+		width: 100%;
+		height: 40vh;
+		margin-top: 30px;
+		padding-top: 16vh;
+	}
+	.box3 img{
+		width: 150px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.t_faided_text{
+		font-size: 18px;
+		text-align: center;
+		color: #434247;
+		margin-top: 40px;
+		font-weight:bold;
+	}

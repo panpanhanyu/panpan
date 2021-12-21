@@ -1,0 +1,17 @@
+/* 移动端 */
+            @media screen and (min-width: 600px) {
+                .t_out_view_mob{
+                    width: 400px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 1px solid #e0e0e1;
+                    height: 80vh;
+                    margin-top: 13vh;
+                    box-sizing: border-box;
+                    box-shadow:  0 0 5px #e8e8e8;
+                    overflow-y: scroll
+                }
+                .t_new_footer{
+                    display: none
+                }
+            }

@@ -1,0 +1,16 @@
+.learn_bannerbox{
+			width: 1140px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 170px;
+		}
+		.learn_bannerbox img{
+			display: block;
+			width: 100%;
+		}
+		.box2{
+			margin-top: 20px;
+		}
+		.t_solg{
+			margin-top: 15px;
+		}

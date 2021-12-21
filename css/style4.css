@@ -44,7 +44,7 @@
 	margin-top:10px;
 }
 .pan-purple-color{
-	color:#9981b4;
+	color:#24A25B;
 }
 
 .pan-blue-color{
@@ -422,15 +422,15 @@ a.pan-yuyue-a{
 	display: block;
 	font-size: 14px;
 
-	background:#9981b4;
+	background:#24A25B;
 	color:white;
 	border-radius: 10px;
 
 }
 
 a.pan-yuyue-a:hover{
-	border: 1px solid #9981b4;
-	color: #9981b4;
+	border: 1px solid #24A25B;
+	color: #24A25B;
 	background: white;
 
 }
@@ -757,14 +757,14 @@ a.pan-time-twi-yy{
 	border-radius:80px;
 	font-size:14px;
 	padding:4px 18px;
-	color:#9981b4;
-	border:1px solid #9981b4;
+	color:#24A25B;
+	border:1px solid #24A25B;
 	right:10px;
 	top:10px;
 }
 
 a.pan-time-twi-yy:hover{
-	background:#9981b4;
+	background:#24A25B;
 	color:white;
 }
 
@@ -838,7 +838,7 @@ a.pan-time-twi-yy:hover{
 a.pan-user-yy-a{
 	font-size:14px;
 	color:white;
-	background:#9981b4;
+	background:#24A25B;
 	display:block;
 	margin-left:20px;
 	margin-right:20px;
@@ -1030,7 +1030,7 @@ a.pan-user-yy-a{
 	display:block;
 	float:left;
 	width:100px;
-	color:#9981b4;
+	color:#24A25B;
 	margin-bottom:12px;
 }
 
@@ -1067,7 +1067,7 @@ a.pan-user-yy-a{
 
 .pan-uil-c-item-wrap p{
 	font-size:22px;
-	color:#9981b4;
+	color:#24A25B;
 	margin-bottom:4px;
 }
 .pan-uil-c-item-wrap{
@@ -1535,9 +1535,9 @@ a.panpan-popup-a-cancel{
 	display:inline-block;
 	padding:3px 16px;
 	border-radius:10px;
-	border:1px solid #9981b4;
+	border:1px solid #24A25B;
 	font-size:14px;
-	color:#9981b4;
+	color:#24A25B;
 }
 
 .panpan-popup-btns{
@@ -1552,10 +1552,10 @@ a.panpan-popup-a-check{
 	display:inline-block;
 	padding:3px 16px;
 	border-radius:10px;
-	border:1px solid #9981b4;
+	border:1px solid #24A25B;
 	font-size:14px;
 	color:white;
-	background:#9981b4;
+	background:#24A25B;
 }
 
 .pan-user-icr-input select{
@@ -1859,7 +1859,7 @@ span.pan-st-lcli-line{
 }
 .pan-studybox-lcli-tags a{
 	margin-right:3px;
-	color:#9981b4;
+	color:#24A25B;
 	font-size:14px;
 }
 
@@ -2115,8 +2115,8 @@ a.p-w-s-c-close img{
 
 .pop-wso-maru.selected{
 	color:white;
-	border-color:#9981b4;
-	background:#9981b4;
+	border-color:#24A25B;
+	background:#24A25B;
 }
 
 .pop-win-sct-order div{
@@ -2197,7 +2197,7 @@ a.p-w-s-c-close img{
 }
 
 .pan-pop-yy-inputs-bottom a{
-	color:#434cb9;
+	color:#24A25B;
 	font-size:14px;
 }
 
@@ -2234,7 +2234,7 @@ a.p-w-s-c-close img{
 
 .pop-win-scbd-bottom{
 	font-size:14px;
-	color:#9981b4;
+	color:#24A25B;
 	margin-top:5px;
 }
 

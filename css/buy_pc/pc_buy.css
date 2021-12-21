@@ -197,7 +197,7 @@ lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
     background-color: white;
 }
 .t_price_btn_lei{
-    border: 2px solid #46246c;
+    border: 2px solid #24A25B;
 }
 .t_price_btn:nth-child(2){
     margin-left: 2%;
@@ -216,7 +216,7 @@ lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
 }
 .t_price_moey{
     font-size: 46px;
-    color: #46246c;
+    color: #24A25B;
     font-weight: bold;
 }
 .t_fontthree{

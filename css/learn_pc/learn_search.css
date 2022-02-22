@@ -255,7 +255,7 @@ a.learn_search_selection:nth-child(2){
 	width:100%;
 	padding-top:0px;
 	padding-bottom:15px;
-	background: #F6F5FAFF;
+	background: #F8F8FA;
 
 }
 .learn_search_movie_line_wrap{
@@ -429,7 +429,7 @@ img.learn_search_line_more{
 }
 
 .learn_search_movie_line_bggrey{
-	/*background: #F6F5FAFF;*/
+	/*background: #F8F8FAFF;*/
 	background: white;
 }
 

@@ -2,9 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F8F8FA;
-    font-family: FangSong, 'Noto Sans KR', ;
+    font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif ;
 }
-lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
+lang(ko) { font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif; }
 .clearf:after{
     content: '';
     display: block;

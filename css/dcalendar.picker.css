@@ -8,7 +8,7 @@
  */
 .calendar {
 	position: relative;
-	font-family: 'Century Gothic','Segoe UI', Calibri, Arial;
+	font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif;
 	font-size: 12px;
 	border-collapse: collapse;
 	margin: 0; padding: 0;
@@ -59,7 +59,7 @@
 .calendar tr:first-child th:active { color: #22A7F0; }
 .calendar thead tr:nth-child(2) th { color: #555; padding: 8px 3px; }
 .calendar #prev, .calendar #next {
-	font-family: 'Times New Roman';
+	font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif;
 	font-size: 20px;
 	padding: 0;
 }

@@ -4,7 +4,7 @@ body{
     background-color: white;
     font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif;
 }
-lang(ko) { font-family: 'Noto Sans KR', sans-serif ; }
+lang(ko) { font-family: 'Noto Sans CJK KR',elvetica,Arial,sans-serif; }
 .clearf:after{
     content: '';
     display: block;

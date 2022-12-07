@@ -1,0 +1,23 @@
+{
+  "name": "panpan",
+  "description": "CMake.js - a Node.js/io.js native addon build tool",
+  "license": "MIT",
+  "keywords": [
+  ],
+  "version": "1.6.0",
+  "author": "Gábor Mező aka unbornchikken",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/panpanhanyu/panpan.git"
+  },
+  "bin": "./bin/panpan",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}

@@ -1,0 +1,11 @@
+.teacherdisplay,.studentdisplay{
+	display: none
+}
+.studentdisplay{
+	display: block;
+}
+
+
+.t_tipsitem{
+	display: none
+}

@@ -1,0 +1,11 @@
+.teacherdisplay,.studentdisplay{
+	display: none;
+}
+.teacherdisplay{
+	display: block;
+}
+
+
+.t_ans{
+	color:#11a875;
+}
